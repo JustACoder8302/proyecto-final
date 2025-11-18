@@ -13,9 +13,9 @@ int main() {
 
 	do {
 
-	cout<< "¡BIENVENIDOS AL JUEGO MATEMATICO\n\n";
-	cout<< "Seleccione la opción:\n"<< std::endl;
-	cout<< "1. Jugar\n2. Ver las reglas\n3. Salir\n\nSeleccione su opción: ";
+	cout<< "Â¡BIENVENIDOS AL JUEGO MATEMATICO\n\n";
+	cout<< "Seleccione la opciÃ³n:\n"<< std::endl;
+	cout<< "1. Jugar\n2. Ver las reglas\n3. Salir\n\nSeleccione su opciÃ³n: ";
 	cin>> opcion;
 
 	system("cls");
@@ -34,13 +34,14 @@ int main() {
 
 
 		case 2:
-			cout<< "El juego mostrará cinco operaciones y/o conceptos matemáticos junto a una serie de cuatro posibles respuestas. El juego consiste en escoger la opción correcta.";
-			cout<< "\nAl final del juego se calcularán la cantidad de respuestas correctas e importantes. Si logras por lo menos tres respuestas correctas, ganarás.\n\n";
-			cout<< "Simple, ¿no es así?";
+			cout<< "El juego mostrarÃ¡ cinco operaciones y/o conceptos matemÃ¡ticos junto a una serie de cuatro posibles respuestas. El juego consiste en escoger la opciÃ³n correcta.";
+			cout<< "\nAl final del juego se calcularÃ¡n la cantidad de respuestas correctas e importantes. Si logras por lo menos tres respuestas correctas, ganarÃ¡s.\n\n";
+			cout<< "Simple, Â¿no es asÃ­?";
 			break;
 
 		case 3:
 			cout<< "Gracias por jugar. :)";
+			cout<< "Probando nuevo cambio";
 			return 0;
 	}
 
