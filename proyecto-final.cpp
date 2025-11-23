@@ -1,13 +1,11 @@
 #include <iostream>
 #include <cstdlib>
-#include <ctime>
 #include <clocale>
 
 using namespace std;
 
 
 unsigned int menuInicial();
-
 bool juego();
 bool bonus1();
 bool bonus2();
