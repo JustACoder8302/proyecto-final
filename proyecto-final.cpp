@@ -89,7 +89,7 @@ unsigned int menuInicial() {
     do {
 
 
-	cout<< "BIENVENIDOS AL JUEGO MATEMATICO!\n\n";
+	cout<< "BIENVENIDO A MATHS FOR DOOMIES!\n\n";
 	cout<< "Seleccione la opcion:\n"<< std::endl;
 	cout<< "1. Jugar\n2. Ver las reglas\n3. Salir\n\nSeleccione su opcion: ";
 	cin>> opcion;
